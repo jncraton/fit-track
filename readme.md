@@ -3,6 +3,8 @@ Fit Track
 
 A fitness tracker project using OOP in C++
 
+![FLUX.1 [dev] - A high-tech fitness tracker](https://github.com/user-attachments/assets/4b428a09-fe41-4069-a7e7-e9a945453c40)
+
 Learning Objectives
 -------------------
 

@@ -23,6 +23,17 @@ Create CLI fitness tracker with the following features:
   - A number of calories burned on that date
 2. When nothing is entered for the date, the applications prints the calories burned and exits
 
+Here's an example run of the application:
+
+```
+Enter workout date (yyyymmdd): 20250101
+Enter workout calories: 200
+Enter workout date (yyyymmdd): 20250102
+Enter workout calories: 300
+Enter workout date (yyyymmdd): 0
+Average calories: 250
+```
+
 The application should include the following to manage this work:
 
 - A `Workout` class with `date` and `calories` as `int` members

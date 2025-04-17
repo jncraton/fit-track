@@ -25,6 +25,32 @@ Create CLI fitness tracker with the following features:
 
 The application should include the following to manage this work:
 
-- A `Workout` class with `date` and `calories` as members
+- A `Workout` class with `date` and `calories` as `int` members
 - A `Workouts` class with a list of `Workouts` and an `average_calories` method to compute calories
 - A `main` function to implement the interface for the user
+
+Resources
+---------
+
+It may be helpful to explore how a [`list`](https://en.cppreference.com/w/cpp/container/list) works in C++. Here's a brief example:
+
+```cpp
+#include <iostream>
+#include <list>
+
+int main() {
+    std::list<int> numbers;
+
+    numbers.push_back(1);
+    numbers.push_back(2);
+    numbers.push_back(3);
+
+    std::cout << "List elements: ";
+    for (int number : numbers) {
+        std::cout << number << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```

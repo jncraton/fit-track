@@ -26,7 +26,6 @@ Create CLI fitness tracker with the following features:
 The application should include the following to manage this work:
 
 - A `Workout` class with `date` and `calories` as `int` members
-    - `Workout` should have a constructor to set the `date` and `calories` from the console
 - A `Workouts` class with a list of `Workouts` and an `average_calories` method to compute calories
 - A `main` function to implement the interface for the user
 
